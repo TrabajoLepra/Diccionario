@@ -3,13 +3,15 @@
 
 #ifndef DICCIONARIO_H
 #define DICCIONARIO_H
+
 void abrir();
 typedef struct Significado {
     char Pal[40];
     char Sig[1500];
     Significado *sig;
-    Significado *ant;
 }Significado;
+
+typedef Significado *Lista;
 
 class Diccionario
 {
