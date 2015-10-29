@@ -3,7 +3,7 @@
 
 #ifndef DICCIONARIO_H
 #define DICCIONARIO_H
-
+void abrir();
 typedef struct Significado {
     char Pal[40];
     char Sig[1500];
