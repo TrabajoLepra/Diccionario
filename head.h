@@ -1,3 +1,6 @@
+#ifndef HEAD_H_INCLUDED
+#define HEAD_H_INCLUDED
+
 #ifndef DICCIONARIO_H
 #define DICCIONARIO_H
 
@@ -24,3 +27,4 @@ class Diccionario
 
 
 #endif // DICCIONARIO_H
+#endif // HEAD_H_INCLUDED
